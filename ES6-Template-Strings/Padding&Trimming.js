@@ -26,3 +26,13 @@ myname.padEnd(10, "12345") //"tanveer123"
 
 myname.padEnd(10, "|Y")   //"tanveer|Y|"
 
+
+// how to remove string extra white space
+let Str = "     tanveer       ";
+
+Str.trim();  //"tanveer" remove all space
+
+Str.trimStart(); //"tanveer      "
+
+Str.trimEnd();   // "      tanveer"
+
